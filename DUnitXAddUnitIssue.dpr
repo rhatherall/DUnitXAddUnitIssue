@@ -13,7 +13,8 @@ uses
   DUnitX.Loggers.Xml.NUnit,
   {$ENDIF }
   DUnitX.TestFramework,
-  InitialTests in 'InitialTests.pas';
+  InitialTests in 'InitialTests.pas',
+  OtherUnit in 'OtherUnit.pas';
 
 {$IFNDEF TESTINSIGHT}
 var
